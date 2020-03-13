@@ -1,6 +1,6 @@
 # Programming For Problem Solving(ESC-105)
 ------
-Name:Twinkle
+Submitted By: Twinkle
 
 Class RollNo: 1916080
 
