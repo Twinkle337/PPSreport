@@ -28,12 +28,32 @@ puts("welcome you in gndec");
 ----------
 
 Experiment No.2:
- 
+Write a code to print hello.
+
  ```C
  #include<stdio.h>
 int main()
 {
     puts("hello");
     
+}
+```
+--------------
+Experiment No.3:
+Write a code to print big c.
+
+```C
+#include<stdio.h>
+int main()
+{
+    puts(" ######");
+puts("##    ##");
+puts("#");
+puts("#");
+puts("#");
+puts("#");
+puts("#");
+puts("##    ##");
+puts(" ######");
 }
 ```
