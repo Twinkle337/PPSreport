@@ -16,7 +16,7 @@ Section:B
 Experiment No.1:
 Write a code to print name of the college.
 
-```
+```C
 #include<stdio.h>
 int main();
 {
