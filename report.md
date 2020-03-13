@@ -9,6 +9,8 @@ University Rollno: 1905162
 
 Branch:Electrical
 
+Batch: 2019-2023
+
 Section:B
 
 ---------------
