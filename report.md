@@ -1,4 +1,4 @@
-![gne](https://raw.githubusercontent.com/Twinkle337/PPSreport/master/321.jpg0)
+![gne](raw.githubusercontent.com/Twinkle337/PPSreport/master/321.jpg)
 # Programming For Problem Solving(ESC-105)
 ------
 Submitted By: Twinkle
