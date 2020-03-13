@@ -18,7 +18,7 @@ Write a code to print name of the college.
 
 ```
 #include<stdio.h>
-intmain();
+int main();
 {
 puts("welcome you in gndec");
 }
