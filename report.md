@@ -25,3 +25,15 @@ int main();
 puts("welcome you in gndec");
 }
 ```
+----------
+
+Experiment No.2:
+ 
+ ```C
+ #include<stdio.h>
+int main()
+{
+    puts("hello");
+    
+}
+```
