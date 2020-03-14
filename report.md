@@ -428,6 +428,27 @@ return 0;
 ```
 -----------
 
+Experiment No.19:
+
+Write a code to print Program to take 5 values from the user and store them in an array and Print
+the elements.
+
+```C
+#include<stdio.h>
+int main()
+{
+int x,array[5];
+printf("\n");
+for(x=1;x<=5;x++)
+{ printf("Enter [%d] element: ", x);
+scanf("%d", &array[x]); }
+for(x=1;x<=5;x++)
+{ printf("\nElement [%d] = %d", x, array[x]); }
+return 0;
+}
+```
+----------
+
 
 
 
