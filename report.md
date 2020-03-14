@@ -378,6 +378,57 @@ return Interest;
 ```
 -------
 
+Experiment No.17:
+Write a code to print Program to find Maximum. 
+
+```C
+#include<stdio.h>
+int max(float x,float y);
+int main()
+{
+float x,y,z;
+printf("\nEnter The First Value: ");
+scanf("%f",&x);
+printf("\nEnter The Second Value: ");
+scanf("%f",&y);
+z = max(x,y);
+printf("\nMaximum value is: %.2f\n", z);
+return 0;
+}
+int max(float x,float y)
+{
+float result;
+if(x<y)
+result = y;
+else
+result = x;
+return result;
+}
+```
+------------
+
+Experiment No.18:
+Write a code to print Program to find a Power of a Number.
+
+```C
+#include<stdio.h>
+int main()
+{
+int base,power,ans=1;
+printf("\nEnter base number: ");
+scanf("%d",&base);
+printf("Enter exponent(power): ");
+scanf("%d",&power);
+while (power!=0)
+{ ans *= base;
+power--; }
+printf("Answer = %d\n", ans);
+return 0;
+}
+```
+-----------
+
+
 
 
 
