@@ -190,7 +190,7 @@ Write a code to check the timing.
 ```
 ---------
 
-Experiment No.8:
+Experiment No.9:
 Write a code to print farnehite to centigrade.
 
 ```C
@@ -208,7 +208,7 @@ Int main()
 ```
 ----------
 
-Experiment No.9:
+Experiment No.10:
 Write a code to print a factorial. 
 
 ```C
@@ -230,7 +230,7 @@ int main()
 ```
 ------------
 
-Experiment No.10:
+Experiment No.11:
 Write a code to print table of any number.
 
 ```C
@@ -253,7 +253,7 @@ getch();
 ```
 ------------
 
-Experiment No.11:
+Experiment No.12:
 Write a code to print prime numbers.
 
 ```C
@@ -289,3 +289,75 @@ int main()
 }
 ```
 ----------
+
+Experiment No.13:
+Write a code to print Swap Numbers Without Using Temporary Variables. 
+
+```C
+#include <stdio.h>
+int main() {
+    double a, b;
+    printf("Enter a: ");
+    scanf("%lf", &a);
+    printf("Enter b: ");
+    scanf("%lf", &b);
+
+    // Swapping process
+    a = a - b;
+    b = a + b;
+    a = b - a;
+
+    printf("After swapping, a = %.2lf\n", a);
+    printf("After swapping, b = %.2lf", b);
+    return 0;
+}
+```
+------------
+
+Experiment NO.14:
+Write a code to print Program to find Area, Perieter, Volume of a Circle.
+
+```C
+#include<stdio.h>
+int main()
+{
+float r,P,A,V;
+float pi = 22/7.0;
+printf("\nEnter The Radius of Circle: ");
+scanf("%f",&r);
+P = 2*pi*r;
+A = pi*r*r;
+V = 4*pi*r*r*r/3.0;
+printf("\nPerimeter of Circle is: = %.2f",P);
+printf("\nArea of Circle is: = %.2f",A);
+printf("\nVolume of Circle is: = %.2f",V);
+return 0;
+}
+```
+-----------
+
+Experiment No.14:
+Write a code to print Program to find Area, Perimeter of a Rectangle.
+
+```C
+#include<stdio.h>
+int main()
+{
+float h,b,A,P;
+printf("\nEnter Height: ");
+scanf("%f",&h);
+printf("\nEnter Bredth: ");
+scanf("%f",&b);
+A = h*b;
+P = 2*(h+b);
+printf("\nArea of Sqare (or) Rectangle: = %.3f",A);
+printf("\nPerimeter of Sqare (or) Rectangle: = %.3f",P);
+return 0;
+}
+```
+------------
+
+
+
+
+ 
