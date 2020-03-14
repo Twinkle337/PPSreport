@@ -623,6 +623,90 @@ return 0;
 ```
 ---------------
 
+Experiment No.26:
+Write a code to print Program of FizzBuzz in a continues loop. 
+
+```C
+#include<stdio.h>
+int main()
+{
+int n,x;
+printf("\nEnter The Integer: ");
+scanf("%d",&n);
+printf("\n");
+{
+for(x=1;x<=n;x++)
+if(x%15==0)
+printf("FizzBuzz\n");
+else if(x%3==0)
+printf("Fizz\n");
+else if(x%5==0)
+printf("Buzz\n");
+else
+printf("%d\n",x);
+}
+return 0;
+}
+```
+----------
+
+Experiment No.27:
+Write a code to print Program to print a Pyramid.
+
+```C
+#include<stdio.h>
+int main()
+{
+int i,j,n;
+printf("\nEnter number of Rows: ");
+scanf("%d",&n);
+printf("\n");
+for(i=1; i<=n; i++)
+{
+for(j=1; j<=2*n-1; j++)
+{
+if(j>=n-(i-1) && j<=n+(i-1))
+printf("*");
+else
+printf(" ");
+}
+printf("\n");
+}
+return 0;
+}
+```
+---------------
+
+Experiment No.28:
+Write a code to print  Program to implement Linear search for One Dimensional array.
+
+```C
+#include<stdio.h>
+int main()
+{
+int array[12]={1,5,9,7,3,82,46,23,23,5,10,3};
+int size=12,flag=0,item,a;
+printf("\nEnter the Value: ");
+scanf("%d", &a);
+for(int i=0;i<size;i++)
+{
+if(a==array[i])
+{
+flag=a;
+
+break;
+}
+}
+if(flag==a)
+printf("\nSearch is Sucessfull \n%d Element is present in the array\n",a);
+else
+printf("\nSearch is Unsucessfull \n%d Element is not present in the array\n",a
+return 0;
+}
+```
+------------
+
+
 
 
 
