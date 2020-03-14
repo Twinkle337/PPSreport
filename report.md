@@ -448,6 +448,113 @@ return 0;
 ```
 ----------
 
+Experiment No.20:
+Write a code to print Program to use Arithmetic Operators.
+
+```C
+#include<stdio.h>
+int main()
+{
+float x,y,a;
+printf("\nEnter The Value of x: ");
+scanf("%f",&x);
+printf("\nEnter The Value of y: ");
+scanf("%f",&y);
+a = x+y;
+printf("x + y = %.3f\n",a);
+a = x-y;
+printf("x - y = %.3f\n",a);
+a = y-x;
+printf("y - x = %.3f\n",a);
+a = x*y;
+printf("x * y = %.3f\n",a);
+a = x/y;
+printf("x/y = %.3f\n",a);
+a = y/x;
+printf("y/x = %.3f\n",a);
+return 0;
+}
+```
+------------
+
+Experiment No.21:
+Write a code to print Program to use Assignment Operators.
+
+```C
+#include<stdio.h>
+int main()
+{
+float x,a;
+printf("\nEnter The Value of x: ");
+scanf("%f",&x);
+a = x;
+printf("Answer is a = x %.3f\n",a);
+a +=x; //answer is a+x
+printf("Answer is a+x = %.3f\n",a);
+a -=x; //answer is a-x
+printf("Answer is a-x = %.3f\n",a);
+a *=x; //answer is a*x
+printf("Answer is a*x = %.3f\n",a);
+a /=x; //answer is a/x
+printf("Answer is a/x= %.3f\n",a);
+return 0;
+}
+```
+------------
+
+Experiment No.22:
+Write a code to print Program to use Operator Precedence.
+
+```C
+#include<stdio.h>
+int main()
+{
+float a,b,c,d,A;
+printf("\nEnter The Value of a: ");
+scanf("%f",&a);
+printf("Enter The Value of b: ");
+scanf("%f",&b);
+printf("Enter The Value of c: ");
+scanf("%f",&c);
+printf("Enter The Value of d: ");
+scanf("%f",&d);
+A = (a+b)*(c+d);
+printf("\n (a+b)*(c+d) = %.3f",A);
+A = (c+d)*a*b;
+printf("\n (c+d)*a*b = %.3f",A);
+A = a*d/(c-b-a);
+printf("\n a*d/(c-b-a) = %.3f",A);
+A = (b-c)*(a-d);
+printf("\n (b-c)*(a-d) = %.3f",A);
+return 0;
+}
+```
+------------
+
+Experiment No.23:
+Write a code to print Program to find Average.
+
+```C
+#include<stdio.h>
+int main()
+{
+int x,N;
+float avg[1000],s,ans;
+printf("\nEnter the Number of elements: ");
+scanf("%d", &N);
+printf("\n");
+for(x=1; x<=N; x++)
+{ printf("Enter [%d] element: ", x);
+scanf("%f", &avg[x]);
+s += avg[x]; }
+ans = s/N;
+printf("\nAverage of %d elements = %.3f", N, ans);
+return 0;
+}
+```
+--------------
+
+
 
 
 
