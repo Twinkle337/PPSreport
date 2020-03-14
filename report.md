@@ -21,6 +21,17 @@ Section:B
 2. Write a code to print hello.
 3. Write a code to print big c.
 4. Write a code to print addition of two numbers.
+5. Write a code to print the smallest number.
+6. Write a code to print the character in a reverse way.
+7. Write a code to print the rectangle.
+8. Write a code to print check the timing.
+9. Write a code to print farnehite to centigrade.
+10. Write a code to print a factorial.
+11. Write a code to print the table of any number.
+12. Write a code to print prime numbers.
+13. Write a code to print swap numbers without using temperary variables.
+14. Write a code to print program to find area,perimeter,volume of a circle.
+15. Write a code to 
 
 Experiment No.1:
 Write a code to print name of the college.
