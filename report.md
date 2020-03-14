@@ -15,7 +15,7 @@ Section:B
 
 ---------------
 
-#INDEX
+# INDEX
 
 1. Write a code to print name of college.
 2. Write a code to print hello.
@@ -30,8 +30,25 @@ Section:B
 11. Write a code to print the table of any number.
 12. Write a code to print prime numbers.
 13. Write a code to print swap numbers without using temperary variables.
-14. Write a code to print program to find area,perimeter,volume of a circle.
-15. Write a code to 
+14. Write a code to print program to find area,perimeter and volume of a circle.
+15. Write a code to print program to find area,perimeter and volume of rectangle.
+16. Write a code to print program to find Interest.
+17. Write a code to print program to find Maximum.
+18. Write a code to print program to find a power of a number.
+19. Write a code to print program to take 5 values from the user and store them in an array and print the elements.
+20. Write a code to print program to use arithmetic Operators.
+21. Write a code to print program to use assignment Operators.
+22. Write a code to print program to use Operator Precedence.
+23. Write a code to print program to find Average.
+24. Write a code to print program to find fizz buzz odd a integer.
+25. Write a code to print Program of Addition of 2x2 Matrix.
+26. Write a code to print Program of FizzBuzz in a continues loop.
+27. Write a code to print Program to print a Pyramid.
+28. Write a code to print  Program to implement Linear search for One Dimensional array.
+29. Write a code to print Program to find weather the Number is Even or Odd using if-else statement.
+30. Write a code to print Program to find Sum of First 10 Natural Numbers using for loop.
+
+-------------
 
 Experiment No.1:
 Write a code to print name of the college.
