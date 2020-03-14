@@ -336,7 +336,7 @@ return 0;
 ```
 -----------
 
-Experiment No.14:
+Experiment No.15:
 Write a code to print Program to find Area, Perimeter of a Rectangle.
 
 ```C
@@ -356,6 +356,27 @@ return 0;
 }
 ```
 ------------
+
+Experiment No.16:
+Write a code to print Program to find Interest.
+
+```C
+#include<stdio.h>
+int main()
+{
+float P,R,T,Interest;
+printf("\nEnter The Principal Amount: ");
+scanf("%f", &P);
+printf("\nEnter The Interest Rate: ");
+scanf("%f", &R);
+printf("\nEnter The Time (in months): ");
+scanf("%f", &T);
+Interest = P*T*R/100;
+printf("\nSimple Intesest is: = %.2f", Interest);
+return Interest;
+}
+```
+-------
 
 
 
