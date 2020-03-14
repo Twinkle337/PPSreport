@@ -554,6 +554,75 @@ return 0;
 ```
 --------------
 
+Experiment No.24:
+Write a code to print Program to find FizzBuzz od a Integer.
+
+```C
+#include<stdio.h>
+int main()
+{
+int n;
+printf("\nEnter the Interger: ");
+scanf("%d",&n);
+if(n%15==0)
+printf("\nFizzBuzz");
+else if(n%3==0)
+printf("Fizz\n");
+else if (n%5==0)
+printf("\nBuzz");
+else
+printf("\n%d",n);
+return 0;
+}
+```
+-------------
+
+Experiment No.25:
+Write a code to print Program of Addition of 2x2 Matrix.
+
+```C
+#include<stdio.h>
+int main()
+{
+float a,b,c,d,e,f,g,h,i,j,k,l;
+printf("\nSample of Ist matrix: | a=1 b=2 |\n | c=3
+Sample of 2nd matrix: | e=5 f=6 |\n | f=7 h=8
+printf("Enter The Valve of a: ");
+scanf("%f",&a);
+printf("Enter The Valve of b: ");
+scanf("%f",&b);
+printf("Enter The Valve of c: ");
+scanf("%f",&c);
+printf("Enter The Valve of d: ");
+scanf("%f",&d);
+printf("Enter The Valve of e: ");
+scanf("%f",&e);
+printf("Enter The Valve of f: ");
+scanf("%f",&f);
+printf("Enter The Valve of g: ");
+scanf("%f",&g);
+printf("Enter The Valve of h: ");
+scanf("%f",&h);
+i = a+e;
+j = b+f;
+k = c+g;
+l = d+h;
+printf("\n\nSum of Matrix(A+B) is: | %.2f %.2f |\n
+i = a-e;
+j = b-f;
+k = c-g;
+l = d-h;
+printf("\n\nSubstraction of Matrix(A-B) is: | %.2f %.2f |\n
+i = e-a;
+j = f-b;
+k = g-c;
+l = h-d;
+printf("\n\nSubstraction of Matrix(B-A) is: | %.2f %.2f |\n
+return 0;
+}
+```
+---------------
+
 
 
 
