@@ -429,7 +429,6 @@ return 0;
 -----------
 
 Experiment No.19:
-
 Write a code to print Program to take 5 values from the user and store them in an array and Print
 the elements.
 
