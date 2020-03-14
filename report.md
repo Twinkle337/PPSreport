@@ -113,3 +113,179 @@ int main()
   return 0;
 }
 ```
+-------
+
+Experiment No.6:
+Write a code to print the character in a reverse way.
+
+```C
+#include <stdio.h> 
+ int main() 
+ {
+    char char1 = 'X';
+    char char2 = 'M';
+    char char3 = 'L';
+
+	printf("The reverse of %c%c%c is %c%c%c\n",
+		char1, char2, char3,
+		char3, char2, char1);
+
+	return(0);
+}
+```
+--------
+
+Experiment No.7:
+Write a code to print rectangle.
+
+```C
+/**
+ * C program to print rectangle star pattern
+ */
+
+#include <stdio.h>
+
+int main()
+{
+    int i, j, rows, columns;
+
+    /* Input rows and columns from user */
+    printf("Enter number of rows: ");
+    scanf("%d", &rows);
+    printf("Enter number of columns: ");
+    scanf("%d", &columns);
+
+    /* Iterate through each row */
+    for(i=1; i<=rows; i++)
+    {
+        /* Iterate through each column */
+        for(j=1; j<=columns; j++)
+        {
+            /* For each column print star */
+            printf("*");
+        }
+        
+        /* Move to the next line/row */
+        printf("\n");
+    }
+
+    return 0;
+}
+```
+---------
+
+Experiment No.8:
+Write a code to check the timing.
+
+```C
+#include <stdio.h>
+     
+     clock_t start, end;
+     double cpu_time_used;
+     
+     start = clock();
+     ... /* Do the work. */
+     end = clock();
+     cpu_time_used = ((double) (end - start)) / CLOCKS_PER_SEC;
+```
+---------
+
+Experiment No.8:
+Write a code to print farnehite to centigrade.
+
+```C
+#include<stdio.h>
+Int main()
+{
+    float c,f;
+    clrscr();
+    printf("Enter the Temperature in farnehite: ");
+    scanf("%c",&f);
+    C=(5.0/9)* (f-32.0);
+    printf("Temparature in centigrate is : %f"\n",c);
+    return 0;
+}
+```
+----------
+
+Experiment No.9:
+Write a code to print a factorial. 
+
+```C
+#include <stdio.h>
+ 
+int main()
+{
+  int c, n, f = 1;
+ 
+  printf("Enter a number to calculate its factorial\n");
+  scanf("%d", &n);
+  for (c = 1; c <= n; c++)
+    f = f * c;
+ 
+  printf("Factorial of %d = %d\n", n, f);
+ 
+  return 0;
+}
+```
+------------
+
+Experiment No.10:
+Write a code to print table of any number.
+
+```C
+#include<stdio.h>
+Int main()
+{
+int i,no,table=1;
+clrscr();
+printf("Enter any number : ");
+scanf("%d",&no);
+printf("Table of  %d \n",no);
+for(i=1;i<=10;i++)
+{
+table=no*i;
+printf("%d",table);
+printf("\n");
+}
+getch();
+}
+```
+------------
+
+Experiment No.11:
+Write a code to print prime numbers.
+
+```C
+#include <stdio.h>
+int main()
+{
+  int n, i = 3, count, c;
+
+  printf("Enter the number of prime numbers to print\n");
+  scanf("%d", &n);
+
+  if (n >= 1) {
+    printf("First %d prime numbers are:\n",n);
+    printf("2\n");
+  }
+
+  for (count = 2; count <= n;)
+  {
+    for (c = 2; c <= i - 1; c++)
+    {
+      if (i%c == 0)
+        break;
+    }
+    if (c == i)
+    {
+      printf("%d\n", i);
+      count++;
+    }
+    i++;
+  }
+
+  return 0;
+}
+```
+----------
