@@ -15,6 +15,13 @@ Section:B
 
 ---------------
 
+#INDEX
+
+1. Write a code to print name of college.
+2. Write a code to print hello.
+3. Write a code to print big c.
+4. Write a code to print addition of two numbers.
+
 Experiment No.1:
 Write a code to print name of the college.
 
@@ -315,7 +322,7 @@ int main() {
 ------------
 
 Experiment NO.14:
-Write a code to print Program to find Area, Perieter, Volume of a Circle.
+Write a code to print Program to find Area, Perimeter, Volume of a Circle.
 
 ```C
 #include<stdio.h>
@@ -555,7 +562,7 @@ return 0;
 --------------
 
 Experiment No.24:
-Write a code to print Program to find FizzBuzz od a Integer.
+Write a code to print Program to find FizzBuzz odd a Integer.
 
 ```C
 #include<stdio.h>
