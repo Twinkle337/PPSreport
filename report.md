@@ -706,6 +706,41 @@ return 0;
 ```
 ------------
 
+Experiment No.29:
+Write a code to print Program to find weather the Number is Even or Odd using if-else statement. 
+
+```C
+#include<stdio.h>
+int main()
+{
+int x;
+printf("\n\nEnter the Number: ");
+scanf("%d", &x);
+if(x%2==0)
+printf("%d is Even", x);
+else
+printf("%d is Odd", x);
+return 0;
+}
+```
+-------------
+
+Experiment No.30:
+Write a code to print Program to find Sum of First 10 Natural Numbers using for loop. 
+
+```C
+#include<stdio.h>
+int main()
+{
+int x,ans;
+for(x=1;x<=10;x++)
+{ ans += x; }
+printf("\n\nSum of first 10 Nmubers: %d",ans);
+return 0;
+}
+```
+----------------
+
 
 
 
